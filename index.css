@@ -1,0 +1,344 @@
+ body {
+ 	padding: 0px !important;
+ 	margin: 0px !important;
+ 	overflow-x: hidden;
+ 	font-family: 'Open Sans', sans-serif;
+ }
+
+ .intro {
+ 	background-color: #3AAAD8;
+ 	height: 650px;
+ 	background-image: url(./STC/things.png);
+ 	background-size: contain;
+ 	box-shadow: inset 0px -10px 20px 8px rgba(0, 0, 0, 0.11);
+ }
+
+ .navbar {
+ 	background-color: rgba(7, 117, 161, 0.4);
+ 	height: auto;
+ 	border: 0px;
+ 	border-radius: 0px;
+ 	box-shadow: 0px 2px 50px 2px rgba(0, 0, 0, 0.10)
+ }
+
+ .navbar-header {
+ 	height: 70px;
+ }
+
+ .navbar-nav {
+ 	margin-top: 15px;
+ }
+
+ .nav li a {
+ 	font-size: 16px;
+ 	margin-right: 10px;
+ 	color: #ffffff !important;
+ }
+
+ .nav li a:hover {
+ 	text-decoration: none;
+ 	background-color: transparent;
+ }
+
+ .jumbotron {
+ 	background-color: transparent;
+ 	padding: 0;
+ 	margin: 0;
+ 	position: relative;
+ }
+
+ .aboutSc {
+ 	font-size: 64px;
+ 	color: white;
+ 	margin-top: 120px;
+ }
+
+ .hand {
+ 	height: 610px;
+ 	margin-top: 120px;
+ 	background-image: url(./STC/Adult-Hand-iPhone-6s.png);
+ 	background-repeat: no-repeat;
+ 	background-size: contain;
+ 	-webkit-background-size: contain;
+ 	-moz-background-size: contain;
+ 	background-position: center;
+ 	position: relative;
+ }
+
+ @media only screen and (max-width: 1190px) {
+ 	.intro {
+ 		height: 640px;
+ 	}
+ }
+
+ @media only screen and (max-width: 1092px) {
+ 	.intro {
+ 		height: 700px;
+ 	}
+ }
+
+ @media only screen and (max-width: 996px) {
+ 	.text {
+ 		text-align: center;
+ 	}
+ }
+
+ .cont {
+ 	font-size: 28px;
+ 	font-weight: lighter;
+ }
+
+ .perks {
+ 	background-color: #ffffff;
+ }
+
+ .how {
+ 	margin-top: 70px;
+ 	font-weight: 500;
+ 	color: #3AAAD8;
+ }
+
+ .how hr {
+ 	margin-top: -10px;
+ 	border: 5px solid #FF8E10;
+ 	width: 250px;
+ }
+
+ .perk1 {
+ 	margin-bottom: 30px;
+ 	margin-top: 30px;
+ }
+
+ .perk1 h2 {
+ 	font-size: 25px;
+ 	font-weight: 500;
+ 	color: #3AAAD8;
+ }
+
+ .perk1 p {
+ 	font-weight: 400;
+ 	color: #000000;
+ 	font-size: 18px;
+ }
+
+ .img1 {
+ 	height: 100px;
+ 	width: 100px;
+ 	background-position: center;
+ 	background-image: url("./STC/004-note.png");
+ 	background-size: contain;
+ 	background-repeat: no-repeat;
+ 	margin-top: 70px !important;
+ }
+
+ .img2 {
+ 	height: 100px;
+ 	width: 100px;
+ 	background-position: center;
+ 	background-image: url("./STC/005-money.png");
+ 	background-size: contain;
+ 	background-repeat: no-repeat;
+ 	margin-top: 70px !important;
+ }
+
+ .img3 {
+ 	height: 100px;
+ 	width: 100px;
+ 	background-position: center;
+ 	background-image: url("./STC/003-support.png");
+ 	background-size: contain;
+ 	background-repeat: no-repeat;
+ 	margin-top: 70px !important;
+ }
+
+ .img4 {
+ 	height: 100px;
+ 	width: 100px;
+ 	background-position: center;
+ 	background-image: url("./STC/002-chatting.png");
+ 	background-size: contain;
+ 	background-repeat: no-repeat;
+ 	margin-top: 70px !important;
+ }
+
+ .img5 {
+ 	height: 100px;
+ 	width: 100px;
+ 	background-position: center;
+ 	background-image: url("./STC/001-notification.png");
+ 	background-size: contain;
+ 	background-repeat: no-repeat;
+ 	margin-top: 70px !important;
+ }
+
+ #hr {
+ 	border: 0.5px solid #f0f0f0;
+ 	width: 800px;
+ }
+
+ @media only screen and (max-width: 688px) {
+ 	.text {
+ 		text-align: center !important;
+ 	}
+ 	.perk1 {
+ 		text-align: center;
+ 	}
+ 	.perk1 img {
+ 		margin-bottom: 60px;
+ 		display: block;
+ 	}
+ 	.perk1 p {
+ 		text-align: center;
+ 	}
+ }
+
+ @media only screen and (max-width: 414px) {
+ 	.intro {
+ 		background-color: #3AAAD8;
+ 		height: 750px;
+ 		background-image: url(./STC/things.png);
+ 		padding-bottom: 50px;
+ 	}
+ 	.vl {
+ 		border-right: 0px !important;
+ 		border-bottom: 0.5px solid #f0f0f0;
+ 		;
+ 		width: 250px;
+ 	}
+ 	.perk1 img {
+ 		margin-left: 20%;
+ 		margin-right: 50%;
+ 	}
+ 	.perk1 p {
+ 		text-align: center;
+ 	}
+ 	.googleLink {
+ 		margin-left: 0px !important;
+ 	}
+ 	.download {
+ 		height: 250px !important;
+ 		width: 250px;
+ 	}
+ 	.contacts {
+ 		padding-left: 0px !important;
+ 	}
+ 	.contacts {
+ 		height: 200px !important;
+ 		margin-top: 100px !important;
+ 		font-size: 10px !important;
+ 		padding-top: 20px !important;
+ 		padding-left: 0px !important;
+ 		padding-right: 0px !important;
+ 	}
+ 	.copyright {
+ 		margin-top: -10px !important;
+ 		float: right;
+ 	}
+ 	.aboutSc {
+ 		font-size: 55px !important;
+ 	}
+ }
+
+ .vl {
+ 	border-right: 0.5px solid #f0f0f0;
+ 	;
+ 	height: 150px;
+ }
+
+ .price {
+ 	font-size: 35px;
+ 	font-weight: 900;
+ 	color: #83A44C;
+ 	text-align: center;
+ 	padding-top: 20px;
+ }
+
+ #phr {
+ 	width: 120px;
+ }
+
+ .pricing {
+ 	margin-bottom: 20px;
+ 	height: 250px;
+ }
+
+ .testimonials {
+ 	height: 500px;
+ 	width: 100%;
+ 	background-color: #f0f0f0;
+ }
+
+ .carousel-indicators {
+ 	bottom: -80px;
+ }
+
+ .carousel-inner {
+ 	margin-bottom: 30px;
+ }
+
+ .carousel-indicators li {
+ 	display: inline-block;
+ 	width: 10px;
+ 	height: 10px;
+ 	margin-left: 10px;
+ 	text-indent: 0;
+ 	cursor: pointer;
+ 	border: none;
+ 	border-radius: 50%;
+ 	background-color: #bbdcf7;
+ }
+
+ .carousel-indicators .active {
+ 	width: 10px;
+ 	height: 10px;
+ 	margin-left: 10px;
+ 	background-color: #3eb0f7;
+ }
+
+ .ind {
+ 	margin-left: -5px !important;
+ }
+
+ .message {
+ 	margin-top: 30px;
+ 	font-weight: 300;
+ 	font-size: 16px;
+ }
+
+ .client-info {
+ 	margin-top: 40px;
+ 	font-weight: 500;
+ 	line-height: 15px;
+ 	font-size: 17px;
+ }
+
+ .company {
+ 	color: #3eb0f7;
+ 	font-style: italic;
+ }
+
+ .download {
+ 	background-color: #FF8E10;
+ 	height: 200px;
+ 	width: 100%;
+ 	margin-top: 60px;
+ 	padding-top: 40px;
+ 	text-align: center;
+ 	font-size: 30px;
+ 	color: white;
+ }
+
+ .contacts {
+ 	background-color: #E1E1E1;
+ 	height: 200px;
+ 	margin-top: 120px;
+ 	font-size: 15px;
+ 	padding-top: 55px;
+ 	padding-left: 50px;
+ 	padding-right: 50px;
+ }
+
+ .contacts strong {
+ 	font-weight: 900;
+ 	font-size: 20px;
+ }
