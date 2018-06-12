@@ -1,13 +1,13 @@
  body {
  	padding: 0px !important;
  	margin: 0px !important;
- 	overflow-x: hidden;
  	font-family: 'Open Sans', sans-serif;
  }
 
  .intro {
  	background-color: #3AAAD8;
  	height: 650px;
+ 	overflow: hidden;
  	background-image: url(./STC/things.png);
  	background-size: contain;
  	box-shadow: inset 0px -10px 20px 8px rgba(0, 0, 0, 0.11);
@@ -171,9 +171,19 @@
  	margin-top: 70px !important;
  }
 
+ .img19 {
+ 	height: 100px;
+ 	width: 100px;
+ 	background-position: center;
+ 	background-image: url("./STC/visibility.png");
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	margin-top: 70px !important;
+ }
+
  #hr {
  	border: 0.5px solid #f0f0f0;
- 	width: 800px;
+ 	width: 60%;
  }
 
  @media only screen and (max-width: 688px) {
@@ -189,10 +199,18 @@
  	}
  	.perk1 p {
  		text-align: center;
- 	}
+	 }
+	 #googl-btn {
+		margin-left: -10px;
+		margin-top: 20px;
+	}
  }
 
  @media only screen and (max-width: 414px) {
+ 	#googl-btn {
+		 margin-left: -10px;
+		 margin-top: 20px;
+ 	}
  	.intro {
  		background-color: #3AAAD8;
  		height: 750px;
@@ -219,43 +237,37 @@
  		height: 250px !important;
  		width: 250px;
  	}
- 	.contacts {
- 		padding-left: 0px !important;
- 	}
- 	.contacts {
- 		height: 200px !important;
- 		margin-top: 100px !important;
- 		font-size: 10px !important;
- 		padding-top: 20px !important;
- 		padding-left: 0px !important;
- 		padding-right: 0px !important;
- 	}
  	.copyright {
  		margin-top: -10px !important;
  		float: right;
  	}
  	.aboutSc {
- 		font-size: 55px !important;
+ 		font-size: 42px !important;
  	}
+ 	.cont {
+ 		font-size: 22px;
+	 }
+	 #top-download-btns {
+		 margin-top: 50px;
+	 }
  }
 
  .vl {
- 	border-right: 0.5px solid #f0f0f0;
- 	;
+ 	border-right: 0.5px solid #f0f0f0;;
  	height: 150px;
  }
 
  .price {
  	font-size: 35px;
  	font-weight: 900;
- 	color: #83A44C;
+ 	color: #2ecc71;
  	text-align: center;
  	padding-top: 20px;
  }
 
- #phr {
+ /* #phr {
  	width: 120px;
- }
+ } */
 
  .pricing {
  	margin-bottom: 20px;
@@ -318,27 +330,33 @@
  }
 
  .download {
+ 	display: table;
  	background-color: #FF8E10;
- 	height: 200px;
  	width: 100%;
  	margin-top: 60px;
- 	padding-top: 40px;
+ 	padding: 40px 0px;
  	text-align: center;
  	font-size: 30px;
  	color: white;
  }
 
  .contacts {
- 	background-color: #E1E1E1;
- 	height: 200px;
+ 	background-color: #333;
+ 	color: #fff;
+ 	padding: 50px 0px;
  	margin-top: 120px;
- 	font-size: 15px;
- 	padding-top: 55px;
- 	padding-left: 50px;
- 	padding-right: 50px;
+ 	font-size: 20px;
  }
 
  .contacts strong {
  	font-weight: 900;
  	font-size: 20px;
+ }
+
+ .footer-copy {
+ 	font-size: 18px;
+ }
+
+ .footer-info a {
+ 	color: #fff;
  }
